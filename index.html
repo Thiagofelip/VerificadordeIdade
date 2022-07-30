@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de Idade</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <Header>
+    <h1>Verificador de Idade</h1>
+  </Header>
+
+  <section>
+    <div>
+      <p>
+        <label for="txtano"> <strong> Ano de Nascimento: </strong></label>
+        <input type="number" name="txtano" id="txtano">
+      </p>
+
+      <p> <strong>Sexo: </strong> 
+        <input type="radio" name="radsex" id="mas" checked>
+        <label for="masc">Masculino</label>
+        <input type="radio" name="radsex" id="fem">
+        <label for="fem">Feminino</label>
+        
+      </p>
+
+      <div id="btt">
+        <button onclick="check()">Verificar</button>
+      </div>
+    </div>
+
+    <div id="res">
+      <p>
+        Preencha os dados acima para ver o resultado
+      </p>
+
+      <img src="img/" alt="">
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; Thiago Felipe</p>
+  </footer>
+
+
+</body>
+
+</html>

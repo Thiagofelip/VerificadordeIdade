@@ -1,0 +1,60 @@
+body {
+  background: rgb(119, 163, 246);
+  font: normal 15pt Arial;
+}
+
+header {
+  color: white; 
+  text-align: center;
+}
+
+section {
+  background: white;
+  border-radius: 10px;
+  padding: 15px;
+  width: 500px;
+  margin: auto;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.468);
+  
+}
+
+#txtano {
+  width: 55px;
+  padding: 5px;
+
+}
+
+img {
+  margin-top: 20px;
+}
+
+#btt {
+  text-align: center;
+
+  margin-bottom: 20px;
+}
+
+button {
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4480ef;;
+  cursor: pointer;
+  height: 30px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.404);
+
+  color: white;
+  font: 15pt Arial;
+  text-transform: uppercase;
+}
+
+button:active {
+  box-shadow: 0 0 0 0, inset 1px 1px 1px rgba(0, 0, 0, 0.478);
+}
+
+
+footer {
+  color: white; 
+  text-align: center;
+  font-style: italic;
+}
